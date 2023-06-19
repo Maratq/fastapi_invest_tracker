@@ -1,0 +1,1 @@
+# fastapi_invest_tracker
