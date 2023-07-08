@@ -48,6 +48,7 @@ app.add_middleware(
                    "Authorization"],
 )
 
+
 @app.on_event("startup")
 async def startup_event():
     redis = aioredis.from_url("redis://localhost", encoding="utf8", decode_responses=True)
