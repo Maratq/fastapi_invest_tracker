@@ -5,7 +5,6 @@ from fastapi_cache.decorator import cache
 from sqlalchemy import insert, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from src.auth.base_config import current_user
 from src.database import get_async_session
 from src.operations.models import operation
 from src.operations.schemas import OperationCreate
